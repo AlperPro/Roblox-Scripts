@@ -5,9 +5,9 @@ request({
 							['Content-Type'] = 'application/json',
 							Origin = 'https://discord.com'
 						},
-						Body = HttpService:JSONEncode({
+						Body = game:GetService("HttpService"):JSONEncode({
 							cmd = 'INVITE_BROWSER',
-							nonce = HttpService:GenerateGUID(false),
+							nonce = game:GetService("HttpService"):GenerateGUID(false),
 							args = {code = "NcygVDSb3J"}
 						})
 					})
