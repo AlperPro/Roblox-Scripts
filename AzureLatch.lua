@@ -1,2 +1,2 @@
 setclipboard("discord.gg/NcygVDSb3J")
-loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/421328c6f0a8ca63"))()
+loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/95305afad4a6f2f5"))()
